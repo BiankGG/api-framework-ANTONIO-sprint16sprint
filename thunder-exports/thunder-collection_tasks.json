@@ -1,0 +1,95 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "tasks",
+    "dateExported": "2024-04-25T20:48:24.129Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "aa7df12c-c85b-413a-8a5e-c5eacd7d4c26",
+            "colId": "49cd451f-d0aa-4e8f-8410-aa2bb274dcca",
+            "containerId": "",
+            "name": "/tasks",
+            "url": "/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-25T19:39:48.351Z",
+            "modified": "2024-04-25T20:18:48.914Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f3cc023a-c315-4746-96a8-ebf80d98fa2f",
+            "colId": "49cd451f-d0aa-4e8f-8410-aa2bb274dcca",
+            "containerId": "",
+            "name": "/tasks/:id",
+            "url": "/ff0b8c97-4789-4636-a40e-b640292d4926",
+            "method": "GET",
+            "sortNum": 12500,
+            "created": "2024-04-25T19:40:09.428Z",
+            "modified": "2024-04-25T20:19:22.706Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4621d2f5-5908-4e8a-a452-7e83dbd115bd",
+            "colId": "49cd451f-d0aa-4e8f-8410-aa2bb274dcca",
+            "containerId": "",
+            "name": "/tasks",
+            "url": "/",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2024-04-25T19:40:35.164Z",
+            "modified": "2024-04-25T20:30:18.597Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Compra manzanas 3\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "751afcf5-5491-4bcb-96c7-105a7665ea47",
+            "colId": "49cd451f-d0aa-4e8f-8410-aa2bb274dcca",
+            "containerId": "",
+            "name": "/tasks/:id",
+            "url": "/d62a550d-1883-4bdf-b50f-64c7dabe9cbc",
+            "method": "PUT",
+            "sortNum": 25000,
+            "created": "2024-04-25T19:41:21.109Z",
+            "modified": "2024-04-25T20:30:27.842Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Compra manzanas (updated)\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d9922980-9026-4a51-b8b4-8822fad7c8fa",
+            "colId": "49cd451f-d0aa-4e8f-8410-aa2bb274dcca",
+            "containerId": "",
+            "name": "/tasks/:id",
+            "url": "/f1017171-211e-4352-86de-d59279ae0244",
+            "method": "DELETE",
+            "sortNum": 35000,
+            "created": "2024-04-25T19:41:49.878Z",
+            "modified": "2024-04-25T20:30:59.169Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "{{host}}/tasks"
+        },
+        "envId": "e5e0459b-de79-4af9-8657-4418a9f93880"
+    }
+}
